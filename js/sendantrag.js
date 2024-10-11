@@ -40,7 +40,7 @@ function sendAntrag() {
   Email.send({
     Host: "smtp.ionos.de",
     Username: "postmaster@andrea-schumacher.info",
-    Password: "Sorry123$Andrea",
+    Password: "Sorry123$HarleyJax",
     To: "andrea.schumacher86@gmx.net",
     From: "postmaster@andrea-schumacher.info",
     Subject: "KVK Kontaktformular Website",
