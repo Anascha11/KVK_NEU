@@ -1,7 +1,44 @@
-.hero {
+.hero,
+.verein {
   text-align: center;
   color: white;
   background-image: url(/images/platzhalter.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 420px;
+}
+
+.hero.resultate {
+  text-align: center;
+  color: white;
+  background-image: url(/images/resultate.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 420px;
+}
+
+.hero.schutz {
+  text-align: center;
+  color: white;
+  background-image: url(/images/schutz.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 420px;
+}
+
+.hero.news {
+  text-align: center;
+  color: white;
+  background-image: url(/images/schnauzer.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 420px;
+}
+
+.hero.kontakt {
+  text-align: center;
+  color: white;
+  background-image: url(/images/kontakt.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   height: 420px;
