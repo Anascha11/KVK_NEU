@@ -1,5 +1,4 @@
-.hero,
-.verein {
+.heroindex {
   text-align: center;
   color: white;
   background-image: url(/images/platzhalter.jpg);
@@ -8,7 +7,7 @@
   height: 420px;
 }
 
-.hero.resultate {
+.heroresultate {
   text-align: center;
   color: white;
   background-image: url(/images/resultate.jpg);
@@ -17,7 +16,7 @@
   height: 420px;
 }
 
-.hero.schutz {
+.heroschutz {
   text-align: center;
   color: white;
   background-image: url(/images/schutz.jpg);
@@ -26,7 +25,7 @@
   height: 420px;
 }
 
-.hero.news {
+.heronews {
   text-align: center;
   color: white;
   background-image: url(/images/schnauzer.jpg);
@@ -35,7 +34,7 @@
   height: 420px;
 }
 
-.hero.kontakt {
+.herokontakt {
   text-align: center;
   color: white;
   background-image: url(/images/kontakt.jpg);
