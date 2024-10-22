@@ -10,7 +10,7 @@
 .heroresultate {
   text-align: center;
   color: white;
-  background-image: url(/images/resultate.jpg);
+  background-image: url(/images/unterordnung2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   height: 420px;
@@ -25,6 +25,23 @@
   height: 420px;
 }
 
+.herosanitaet {
+  text-align: center;
+  color: white;
+  background-image: url(/images/sanitaet.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 420px;
+}
+
+.herounterordnung {
+  text-align: center;
+  color: white;
+  background-image: url(/images/unterordnung.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 420px;
+}
 .heronews {
   text-align: center;
   color: white;
