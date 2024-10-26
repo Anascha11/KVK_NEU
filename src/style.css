@@ -1,7 +1,7 @@
 .heroindex {
   text-align: center;
   color: white;
-  background-image: url(/images/platzhalter.jpg);
+  background-image: url(../images/platzhalter.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   height: 420px;
@@ -10,7 +10,7 @@
 .heroresultate {
   text-align: center;
   color: white;
-  background-image: url(/images/unterordnung2.jpg);
+  background-image: url(../images/unterordnung2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   height: 420px;
@@ -19,7 +19,7 @@
 .heroschutz {
   text-align: center;
   color: white;
-  background-image: url(/images/schutz.jpg);
+  background-image: url(../images/schutz.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   height: 420px;
@@ -28,7 +28,7 @@
 .herosanitaet {
   text-align: center;
   color: white;
-  background-image: url(/images/sanitaet.jpg);
+  background-image: url(../images/sanitaet.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   height: 420px;
@@ -37,15 +37,25 @@
 .herounterordnung {
   text-align: center;
   color: white;
-  background-image: url(/images/unterordnung.jpg);
+  background-image: url(../images/unterordnung.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   height: 420px;
 }
+
+.herojung {
+  text-align: center;
+  color: white;
+  background-image: url(../images/junghund.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 420px;
+}
+
 .heronews {
   text-align: center;
   color: white;
-  background-image: url(/images/schnauzer.jpg);
+  background-image: url(../images/wald.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   height: 420px;
@@ -54,7 +64,43 @@
 .herokontakt {
   text-align: center;
   color: white;
-  background-image: url(/images/kontakt.jpg);
+  background-image: url(../images/kontakt.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 420px;
+}
+
+.heroprogramm {
+  text-align: center;
+  color: white;
+  background-image: url(../images/wolf.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 420px;
+}
+
+.herocloseup {
+  text-align: center;
+  color: white;
+  background-image: url(../images/closeup.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 420px;
+}
+
+.herofaehrten {
+  text-align: center;
+  color: white;
+  background-image: url(../images/faehrten1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 420px;
+}
+
+.heroplatzhalter {
+  text-align: center;
+  color: white;
+  background-image: url(../images/platzhalter_gross_paws.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   height: 420px;
@@ -141,6 +187,11 @@ h4 {
 }
 
 p {
+  font-size: 15px;
+  font-family: "Quicksand", sans-serif;
+}
+
+ul {
   font-size: 15px;
   font-family: "Quicksand", sans-serif;
 }

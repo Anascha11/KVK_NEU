@@ -37,20 +37,9 @@ function sendAntrag() {
     "<br/>" +
     datenschutz +
     "<br/>";
-  Email.send({
-    Host: "smtp.ionos.de",
-    Username: "postmaster@andrea-schumacher.info",
-    Password: "Sorry123$HarleyJax",
-    To: "andrea.schumacher86@gmx.net",
-    From: "postmaster@andrea-schumacher.info",
-    Subject: "KVK Kontaktformular Website",
-    Body: body,
-  }).then((message) => {
-    if (message != "OK") {
-      alert(message);
-      return;
-    }
-    document.getElementById("form").style.display = "none";
-    document.getElementById("reply").style.display = "block";
+
+  sendToMailServer({
+    subject: "KVK Mitgliedsantrag Website",
+    body: body,
   });
 }
