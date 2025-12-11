@@ -23,13 +23,13 @@
   <script src="./js/rechapta.js"></script>
 
   <script src="https://www.google.com/recaptcha/enterprise.js?render=6LctuVYqAAAAAHLQjZAdOp5IktEbmX0ps4OH7weD"></script>
-
+  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
   <link rel="icon"
     href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🐶</text></svg>">
   <title>KV Klingnau</title>
 </head>
 
-<body>
+<body onload="loadMailForm()">
   <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top"
     style="padding-top: 5px; padding-bottom: 5px; padding-right: 30px; background-color: white !important">
     <div class=" container-fluid" style="background-color: white">
@@ -56,30 +56,30 @@
             </ul>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="./ausbildung.html" role="button" data-bs-toggle="dropdown"
-              aria-expanded="false">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               Ausbildung
             </a>
             <ul class="dropdown-menu">
               <li><a class="dropdown-item" href="./subnavigation/schutzdienst.html">Schutzdienst</a></li>
               <li><a class="dropdown-item" href="./subnavigation/unterordnung.html">Unterordnung</a></li>
-              <li><a class="dropdown-item" href="./subnavigation/sanitaet.html">Sanität</a></li>
+              <!--<li><a class="dropdown-item nav-link active" href="./sanitaet.html">Sanität</a></li>-->
               <li><a class="dropdown-item" href="./subnavigation/revier.html">Fährten und Revier</a></li>
               <li><a class="dropdown-item" href="./subnavigation/jungundfamilienhunde.html">Jung- und Familienhunde</a>
               </li>
             </ul>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href=".//fotos.html">Fotos</a>
+            <a class="nav-link" href="./fotos.html">Fotos</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href=".//jahresprogramm.html">Jahresprogramm</a>
+            <a class="nav-link" href="./jahresprogramm.html">Jahresprogramm</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" href=".//kontakt.html">Kontakt</a>
+            <a class="nav-link active" href="./kontakt.html">Kontakt</a>
           </li>
         </ul>
-        <img class="logokombi" src="./images/Hund_Logokombi_solid.svg" alt="KV Klingnau Key Visual" width="40%">
+        <img class="logokombi" src="./images/Hund_Logokombi_solid.svg" alt="KV Klingnau Key Visual" max-width="full"
+          height="50px">
       </div>
     </div>
   </nav>
@@ -92,12 +92,11 @@
   <div class="content">
     <div class="textfullwidth">
       <h3>Kontakt</h3>
-      <div id="form" class="row g-3 needs-validation" novalidate>
+      <div id="form">
         <div class="row g-3 mb-3">
           <div class="col">
             <label for="nachname" class="form-label">Name *</label>
             <input id="nachname" type="text" class="form-control" placeholder="Name" aria-label="Name" />
-
           </div>
           <div class="col">
             <label for="vorname" class="form-label">Vorname *</label>
@@ -110,7 +109,7 @@
         </div>
         <div class="mb-3">
           <label for="betreff" class="form-label">Betreff *</label>
-          <input id="betreff" type="betreff" class="form-control" placeholder="Betreff" />
+          <input id="betreff" type="text" class="form-control" placeholder="Betreff" />
         </div>
         <div class="mb-3">
           <label for="nachricht" class="form-label">Deine Nachricht *</label>
@@ -134,9 +133,9 @@
         vorbeifahren
         bis zur 90° Linkskurve, bei dieser geradeaus ins Fahrvebot <br>(die Zufahrt bis zur Clubhütte ist gestattet).
       </p>
-      <iframe
+      <iframe title="map"
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2691.0283164495427!2d8.237100311957255!3d47.5866912892318!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47906835575f099b%3A0xc25592ed8798671!2sKV%20Klingnau!5e0!3m2!1sen!2sch!4v1727942246559!5m2!1sen!2sch"
-        width="400" height="300" style="border:0;" class="mt-2 mb-3" allowfullscreen="" loading="lazy"
+        width="300" style="border:0;" class="mt-2 mb-3" loading="lazy"
         referrerpolicy="no-referrer-when-downgrade"></iframe>
       <br>
       <hr>
@@ -147,18 +146,24 @@
     </div>
   </div>
   <footer class="footer mt-auto py-2">
-    <p class="copyright"> <span>
-        <a class="fa-brands fa-facebook" href="https://www.facebook.com/KVKlingnau" target="_blank"
-          title="Facebook KV Klingnau"></a> <br><br>
-        © 2024 KV
-        Klingnau <br>
-      </span><a href="./downloads/Datenschutzerklärung.pdf" target=”_blank”>Datenschutzerklärung</a>
+    <p class="copyright">
+      <a class="fa-brands fa-facebook" href="https://www.facebook.com/profile.php?id=61571664166063" target="_blank"
+        title="Facebook KV Klingnau"></a> <br><br>
+      © 2024 KV
+      Klingnau <br><br>
+      <a href="./login.html">
+        Login Mitglieder</a>
+    </p>
+
+    <p class="copyright">
+      <a href="./downloads/Datenschutzerklärung.pdf" target=”_blank”>Datenschutzerklärung</a>
+      <a href=" mailto: info@kvklingnau.ch"> | info@kvklingnau.ch</a>
       <br>
-      <a href="mailto: info@kvklingnau.ch"> info@kvklingnau.ch</a>
-      <br><br>
-      <a href="https://github.com/Harley-Design/" target=”_blank”>Open-source code by Andrea</a>
+      <a href="https://github.com/Harley-Design/" target=”_blank” style="line-height: 24px;">Open-source code by
+        Andrea</a>
     </p>
   </footer>
+
 </body>
 
 </html>

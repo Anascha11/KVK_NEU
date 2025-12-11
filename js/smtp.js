@@ -11,7 +11,7 @@
     body: JSON.stringify({ ...body, host: location.host }),
   };
 
-  let url = "https://andrea-schumacher.info/sendmail";
+  let url = "/sendmail";
   if (!location.host) {
     url = "http://localhost:7777/sendmail";
   }

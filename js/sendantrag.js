@@ -7,7 +7,6 @@ function sendAntrag() {
   const geburtsdatum = document.getElementById("geburtsdatum").value;
   const telefon = document.getElementById("telefon").value;
   const hund = document.getElementById("hund").value;
-  const datenschutz = document.getElementById("datenschutz").textContent;
   const body =
     "<html><body>" +
     "Name:&nbsp;" +
@@ -39,7 +38,7 @@ function sendAntrag() {
     "<br/>";
 
   sendToMailServer({
-    subject: "KVK Mitgliedsantrag Website",
+    subject: "KVK Mitgliedsantrag",
     body: body,
   });
 }

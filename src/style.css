@@ -1,109 +1,145 @@
 .heroindex {
   text-align: center;
   color: white;
-  background-image: url(../images/platzhalter.jpg);
+  background-image: url(../images/heros/platzhalter.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 420px;
+  height: 300px;
+}
+
+.herologin {
+  text-align: center;
+  color: white;
+  background-image: url(../images/heros/Kenzo_und_Berry.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+}
+
+.heromitgliederbereich {
+  text-align: center;
+  color: white;
+  background-image: url(../images/heros/unterordnung.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
 }
 
 .heroresultate {
   text-align: center;
   color: white;
-  background-image: url(../images/unterordnung2.jpg);
+  background-image: url(../images/heros/Berry_KV.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 420px;
+  height: 300px;
 }
 
 .heroschutz {
   text-align: center;
   color: white;
-  background-image: url(../images/schutz.jpg);
+  background-image: url(../images/heros/schutz.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 420px;
+  height: 300px;
 }
 
 .herosanitaet {
   text-align: center;
   color: white;
-  background-image: url(../images/sanitaet.jpg);
+  background-image: url(../images/heros/HolgerQuenn.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 420px;
+  height: 300px;
 }
 
 .herounterordnung {
   text-align: center;
   color: white;
-  background-image: url(../images/unterordnung.jpg);
+  background-image: url(../images/heros/unterordnung2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 420px;
+  height: 300px;
 }
 
 .herojung {
   text-align: center;
   color: white;
-  background-image: url(../images/junghund.jpg);
+  background-image: url(../images/heros/junghund_test.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 420px;
+  height: 300px;
 }
 
 .heronews {
   text-align: center;
   color: white;
-  background-image: url(../images/wald.jpg);
+  background-image: url(../images/heros/Cai_KV.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 420px;
+  height: 300px;
 }
 
 .herokontakt {
   text-align: center;
   color: white;
-  background-image: url(../images/kontakt.jpg);
+  background-image: url(../images/heros/kontakt.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 420px;
+  height: 300px;
 }
 
 .heroprogramm {
   text-align: center;
   color: white;
-  background-image: url(../images/wolf.jpg);
+  background-image: url(../images/heros/Scali.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 420px;
+  height: 300px;
+}
+
+.heromitglied {
+  text-align: center;
+  color: white;
+  background-image: url(../images/heros/Raymond\ und\ Ruth.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
 }
 
 .herocloseup {
   text-align: center;
   color: white;
-  background-image: url(../images/closeup.jpg);
+  background-image: url(../images/heros/closeup.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 420px;
+  height: 300px;
 }
 
 .herofaehrten {
   text-align: center;
   color: white;
-  background-image: url(../images/faehrten1.jpg);
+  background-image: url(../images/heros/sanitaet.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 420px;
+  height: 300px;
 }
 
-.heroplatzhalter {
+.herostatuten {
   text-align: center;
   color: white;
-  background-image: url(../images/platzhalter_gross_paws.jpg);
+  background-image: url(../images/heros/SchäferDeppelers.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 420px;
+  height: 300px;
+}
+
+.heroverein {
+  text-align: center;
+  color: white;
+  background-image: url(../images/heros/Nikita_KV_Kopie.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
 }
 
 .navbar-brand {
@@ -152,9 +188,11 @@
 .btn-dark {
   background: white;
   border: 1px solid black;
+  max-width: fit-content;
   border-radius: 8px;
   color: black;
   padding: 12px 25px;
+  display: flex;
 }
 
 h1 {
@@ -244,11 +282,6 @@ a:hover {
   small {
     font-size: 11px;
   }
-
-  .round,
-  .logokombi {
-    display: none;
-  }
 }
 
 .gallery {
@@ -313,4 +346,147 @@ a:hover {
   transition: ease-in-out 0.5s;
   position: relative;
   z-index: 2;
+}
+
+#loginform {
+  max-width: 600px;
+}
+
+/* Full-width input fields */
+input[type="text"],
+input[type="password"] {
+  font-family: "Quicksand", sans-serif;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  border-radius: 8px;
+}
+
+/* Set a style for all buttons */
+.button {
+  font-family: "Quicksand", sans-serif;
+  background-color: white;
+  color: #212529;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: 1px solid #888;
+  cursor: pointer;
+  width: 100%;
+  border-radius: 8px;
+}
+
+.loginbtn:hover {
+  background-color: #424649;
+  color: white;
+  font-weight: 700;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  max-width: fit-content;
+  padding: 10px 18px;
+  background-color: white;
+  border: 1px solid #888;
+  border-radius: 8px;
+}
+
+/* Center the image and position the close button */
+.imgcontainer {
+  font-family: "Quicksand", sans-serif;
+  text-align: center;
+  margin: 22px 0 12px 0;
+  position: relative;
+}
+
+img.avatar {
+  width: 20%;
+  border-radius: 50%;
+}
+
+.container {
+  padding: 16px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+  padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  font-family: "Quicksand", sans-serif;
+  background-color: #fefefe;
+  color: black;
+  margin: 5% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 60%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: darkgrey;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s;
+}
+
+@-webkit-keyframes animatezoom {
+  from {
+    -webkit-transform: scale(0);
+  }
+  to {
+    -webkit-transform: scale(1);
+  }
+}
+
+@keyframes animatezoom {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+    display: block;
+    float: none;
+  }
+  .cancelbtn {
+    width: 100%;
+  }
 }

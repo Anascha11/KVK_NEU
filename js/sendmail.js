@@ -2,6 +2,7 @@ function sendEmail() {
   const nachname = document.getElementById("nachname").value;
   const vorname = document.getElementById("vorname").value;
   const email = document.getElementById("email").value;
+  const betreff = document.getElementById("betreff").value;
   const nachricht = document.getElementById("nachricht").value;
   const body =
     "<html><body>" +
@@ -25,7 +26,7 @@ function sendEmail() {
     nachricht +
     "</body></html>";
   sendToMailServer({
-    subject: "KVK Kontaktformular Website",
+    subject: "KVK Kontaktformular",
     body: body,
   });
 }
